@@ -1,0 +1,62 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Java sources
+*.java text diff=java
+
+# SQL files
+*.sql text
+
+# These files are text and should be normalized (Convert crlf => lf)
+*.css text
+*.df text
+*.htm text
+*.html text
+*.js text
+*.jsp text
+*.jspf text
+*.jspx text
+*.properties text
+*.sh text
+*.tld text
+*.txt text
+*.tag text
+*.tagx text
+*.xml text
+*.yml text
+*.yaml text
+*.json text
+*.md text
+
+# These files are binary and should be left untouched
+# (binary is a macro for -text -diff)
+*.class binary
+*.dll binary
+*.ear binary
+*.jar binary
+*.so binary
+*.war binary
+*.jks binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.flv binary
+*.fla binary
+*.swf binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.eot binary
+*.woff binary
+*.woff2 binary
+*.pyc binary
+*.pdf binary
+*.ez binary
+*.bz2 binary
+*.swp binary
